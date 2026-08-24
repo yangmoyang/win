@@ -1414,7 +1414,7 @@ namespace WIN
                         string win2 = GetProcessPath2(window.ProcessId);
                         Console.WriteLine($"窗口标题: {window.Title}");
                         Console.WriteLine($"进程ID: {window.ProcessId}");
-                        Console.WriteLine($"进程名: {window.ProcessName}");
+                        Console.WriteLine($"进程名: {window.ProcessName}");  
                         Console.WriteLine("-----------------------------" + win2);
                         // 组合相对路径
                         string baseDir = Path.GetDirectoryName(win2); // 正确获取父目录
