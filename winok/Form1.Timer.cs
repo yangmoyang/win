@@ -1838,7 +1838,7 @@ namespace winok
                                 new_jrcan2 = false;
                                 new_jrcan = false;
 
-                                    AppendLog("结果sd" + h_s);
+                                    AppendLog("结果  sd" + h_s);
                                     n_sc.maijia = _Closeprice;
                                 if (new_jr == 1)
                                 {
