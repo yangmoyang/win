@@ -1422,7 +1422,7 @@ namespace WIN
                         string targetFile =  Path.Combine(baseDir, "OpenCode", "TXFFC.txt");
                         Console.WriteLine($"监控文件路径: {targetFile}");
                         string content = File.ReadAllText(targetFile, Encoding.UTF8);
-                        Console.WriteLine($"文件内容:\n{content}");
+                        Console.WriteLine($"文件内77777容:\n{content}");
 
                         // 初始化监控
                         var monitor = new AdvancedFileLinesMonitor(targetFile, 2000);
